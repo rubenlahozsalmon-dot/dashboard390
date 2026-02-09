@@ -120,6 +120,6 @@ if archivo:
     csv = resumen_kpi.to_csv(index=False).encode('utf-8')
     st.download_button(
         label="📥 Descargar Auditoría en CSV",
-        data=csv,
+        data=csv,)
         file_name=f"auditoria_{rep_sel}.csv",
         mime='text/csv'
