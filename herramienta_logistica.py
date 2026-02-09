@@ -123,7 +123,3 @@ if archivo:
         data=csv,
         file_name=f"auditoria_{rep_sel}.csv",
         mime='text/csv'
-    )
-
-else:
-  
