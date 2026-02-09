@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 import numpy as np
 
@@ -48,12 +49,10 @@ def identificar_hallazgos_clave(kpi_df):
     return top_performer, critical_zones
 
 if __name__ == "__main__":
-    print("Módulo de Auditoría Logística cargado correctamente.")
-
-# --- Código para disparar la descarga en Colab ---
-from google.colab import files
+    st.title("Módulo de Auditoría Logística)
+    srt.write("Módulo de Auditoría Logística cargado correctamente.")
+st.download_button(label="Descargar resultados"data=datos_a_descargar,file_name='resultados_logistica.csv,mime='text/csv',)
 try:
     files.download('herramienta_logistica.py')
     print("Archivo 'herramienta_logistica.py' listo para descargar.")
 except Exception as e:
-    print("El archivo se ha guardado en el entorno local de Colab.")
