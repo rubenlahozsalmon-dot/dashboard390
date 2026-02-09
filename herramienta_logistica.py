@@ -126,4 +126,4 @@ if archivo:
     )
 
 else:
-    st.info("👋 Bienvenida/o. Por favor, sube un archivo en el panel izquierdo para comenzar el análisis."
+  
