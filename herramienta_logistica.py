@@ -49,7 +49,7 @@ def identificar_hallazgos_clave(kpi_df):
     return top_performer, critical_zones
 
 if __name__ == "__main__":
-    st.title("Módulo de Auditoría Logística)
+    st.title("Módulo de Auditoría Logística")
     srt.write("Módulo de Auditoría Logística cargado correctamente.")
 st.download_button(label="Descargar resultados"data=datos_a_descargar,file_name='resultados_logistica.csv,mime='text/csv',)
 try:
